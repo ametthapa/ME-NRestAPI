@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const db = require('./utility/db');
 
 app.use(express.json());
+
 app.use(express.urlencoded({ extended: true }));
 
 const subscriberRoutes = require('./routes/subscribers');
