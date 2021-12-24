@@ -1,7 +1,7 @@
 
 
 
-DELETE  http://localhost:4000/subscribers/61c44f9cbf8eec4735f2a3ff
+# DELETE  http://localhost:4000/subscribers/61c44f9cbf8eec4735f2a3ff
 
 ###
 
@@ -12,3 +12,16 @@ DELETE  http://localhost:4000/subscribers/61c44f9cbf8eec4735f2a3ff
 #     "name":"thisis",
 #     "subscribedToChannel":"webde"
 # }
+
+
+###
+# DELETE http://localhost:4000/subscribers/61c44f9cbf8eec4735f2a3ff
+
+PATCH http://localhost:4000/subscribers/61c44ff4bf8eec4735f2a403
+
+Content-Type: application/json
+
+{
+    "name":"NewName",
+    "subscribedToChannel":"Mrone27"
+}
